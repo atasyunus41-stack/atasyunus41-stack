@@ -1,56 +1,53 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!DOCTYPE html><html lang="tr">
 <head>
-<meta charset="UTF-8">
-<title>SUDE Akrostiş</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aktaş Akrostiş</title>
+  <style>
     body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Courier New", monospace;
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                    url('https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1080&auto=format&fit=crop');
-        background-size: cover;
-        color: #fff;
-        text-shadow: 0 0 10px #ff99cc;
+      margin: 0;
+      padding: 0;
+      font-family: "Georgia", serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+      background-size: 400% 400%;
+      animation: romanticBG 12s ease infinite;
     }
-
+    @keyframes romanticBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
     .container {
-        background: rgba(0,0,0,0.55);
-        padding: 25px 35px;
-        border-radius: 12px;
-        border: 1px solid rgba(255,255,255,0.2);
-        box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
-        animation: pulse 4s infinite alternate ease-in-out;
+      text-align: center;
+      padding: 20px;
+      backdrop-filter: blur(6px);
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.3);
     }
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 10px rgba(255,105,180,0.4); }
-    100% { box-shadow: 0 0 25px rgba(255,105,180,0.9); }
-}
-
-pre {
-    font-size: 20px;
-    line-height: 1.7;
-    white-space: pre-wrap;
-    text-align: left;
-}
-</style>
+    h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin: 6px 0;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-
-<div class="container">
-<pre>
-S: Sonsuz umutlarla parlayan bir ruh
-U: Umutla geleceği güzelleştiren zarif bir enerji
-D: Duyguları kalbine incelikle işleyen bir zarafet
-E: Etrafına sevgi katan en özel varlıklardan biri
-</pre>
-</div>
-
+  <div class="container">
+    <h1>Aktaş Akrostiş</h1>
+    <p><b>A</b>şkın ışığıyla aydınlandım seninle</p>
+    <p><b>K</b>albimin ritmi senin adınla değişti</p>
+    <p><b>T</b>utunduğum en güzel hayalim oldun</p>
+    <p><b>A</b>ynaya değil, gözlerine bakınca buldum kendimi</p>
+    <p><b>Ş</b>imdi ve daima, kalbim seninle dolu</p>
+  </div>
 </body>
 </html>
